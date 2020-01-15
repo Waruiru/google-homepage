@@ -80,3 +80,42 @@ input:hover {
     min-width: 54px;
     cursor: progress;
 }
+
+a {
+    padding-left: 15px;
+    color:#000;
+    opacity: 0.75;
+    font-size: 13px;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: arial, sans-serif;
+    overflow: hidden;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 38px;
+    min-width: 1153px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    left: 0;
+}
+
+.right-bottom{
+    grid-row: 7;
+    grid-column: 3;
+    text-align: right;
+    padding: 35px;  
+}
+
